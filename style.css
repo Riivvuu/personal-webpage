@@ -11,3 +11,9 @@ a {
     text-decoration: none;
     color: #443bc2;
 }
+
+hr {
+    border: 1px solid #ececec;
+    margin: 20px 0;
+    padding: 0;
+}
