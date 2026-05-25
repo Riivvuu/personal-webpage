@@ -21,9 +21,10 @@ hr {
 }
 
 h1 {
+    margin: 0 auto;
     max-width: 500px;
     font-size: 5em;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
