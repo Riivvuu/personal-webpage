@@ -23,11 +23,10 @@ hr {
 h1 {
     max-width: 500px;
     font-size: 2.5em;
-    margin-bottom: 10px;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20vh;
 }
 
 h2 {
