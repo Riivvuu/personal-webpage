@@ -43,7 +43,7 @@ header div {
 
 header img {
     width: 160px;
-    height: 200px;
+    height: auto;
     object-fit: cover;
 }
 
