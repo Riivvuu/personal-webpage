@@ -3,7 +3,6 @@
     padding: 5px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #363636;
     color: #fff;
 }
 
@@ -33,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    background-color: #242424;
 }
 
 header div {
@@ -45,6 +45,10 @@ header img {
     width: 200px;
     height: auto;
     object-fit: cover;
+}
+
+main {
+    background-color: #242424;
 }
 
 h1 {
@@ -82,8 +86,7 @@ main li {
 
 footer {
     background-color: #000000;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     text-align: center;
     padding: 20px 0;
 }
