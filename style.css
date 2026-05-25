@@ -66,17 +66,17 @@ h2 {
     margin-bottom: 30px;
 }
 
-p,
-li {
+main p,
+main li {
     font-size: 1.2em;
     line-height: 1.6;
 }
 
-p {
+main p {
     margin-bottom: 20px;
 }
 
-li {
+main li {
     margin-bottom: 10px;
 }
 
