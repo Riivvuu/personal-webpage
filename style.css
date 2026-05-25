@@ -11,7 +11,7 @@
 
 a {
     text-decoration: none;
-    color: #510094;
+    color: #7e17d3;
 }
 
 hr {
@@ -67,6 +67,8 @@ h2 {
 }
 
 footer {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding: 20px 0;
 }
