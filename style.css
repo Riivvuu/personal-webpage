@@ -11,7 +11,7 @@
 
 a {
     text-decoration: none;
-    color: #443bc2;
+    color: #410077;
 }
 
 hr {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: #ffffff;
     margin-bottom: 20px;
 }
@@ -64,4 +64,9 @@ h2 {
     font-size: 2.8em;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
 }
