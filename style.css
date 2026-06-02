@@ -31,8 +31,6 @@ hr {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex: 1;
     background-color: #242424;
 }
 
