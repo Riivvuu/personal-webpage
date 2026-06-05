@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: #242424;
     color: #fff;
 }
 
@@ -22,6 +23,15 @@ a {
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
+}
+
+.Navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .container {
