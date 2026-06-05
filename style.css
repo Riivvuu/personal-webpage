@@ -7,6 +7,9 @@
 }
 
 
+body {
+    background-color: #242424;
+}
 
 a {
     text-decoration: none;
@@ -32,6 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #242424;
+    margin-left: 250px;
 }
 
 header div {
@@ -46,8 +50,8 @@ header img {
     object-fit: cover;
 }
 
-body {
-    background-color: #242424;
+main {
+    margin-left: 250px;
 }
 
 h1 {
