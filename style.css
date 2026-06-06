@@ -99,7 +99,6 @@ main h1 {
 .about {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -108,7 +107,6 @@ main h1 {
 .skills {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -117,7 +115,6 @@ main h1 {
 .projects {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
