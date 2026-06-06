@@ -29,10 +29,6 @@ body {
 .content {
     width: 80%;
     background-color: #2e2e2e;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 header,
