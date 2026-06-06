@@ -45,6 +45,21 @@ header {
     padding: 30px;
 }
 
+.header-text h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+
+.header-inner img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -53,10 +68,7 @@ main {
     gap: 50px;
 }
 
-img {
-    height: 200px;
-    margin-bottom: 20px;
-}
+
 
 footer {
     width: 100%;
