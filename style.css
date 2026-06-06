@@ -86,13 +86,22 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     gap: 50px;
+    font-size: 18px;
+}
+
+main h1 {
+    font-size: 48px;
 }
 
 .about {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -100,6 +109,8 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -107,6 +118,8 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
