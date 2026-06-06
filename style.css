@@ -26,15 +26,19 @@ body {
     width: 20%;
     background-color: #1e1e1e;
     padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
 }
 
 .Navbar h1 {
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .Navbar ul {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
