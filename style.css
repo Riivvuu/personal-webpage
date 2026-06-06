@@ -33,7 +33,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
 header,
@@ -45,7 +44,7 @@ main {
 header {
     background-color: #14131a;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
 }
