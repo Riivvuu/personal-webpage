@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
 }
 
-.container {
+.main {
     display: flex;
     flex: 1;
 }
@@ -31,13 +31,13 @@ body {
     background-color: #2e2e2e;
 }
 
-header,
-main {
+.header,
+.main {
     width: 100%;
     max-width: 1400px;
 }
 
-header {
+.header {
     background-color: #14131a;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ header {
     padding: 30px;
 }
 
-main {
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,12 +53,12 @@ main {
     padding: 30px;
 }
 
-img {
+.header img {
     height: 200px;
     margin-bottom: 20px;
 }
 
-footer {
+.footer {
     width: 100%;
     background-color: #14131a;
     display: flex;
