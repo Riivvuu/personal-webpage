@@ -19,7 +19,6 @@ body {
 
 .Navbar {
     width: 20%;
-    height: 100vh;
     background-color: #1e1e1e;
     display: flex;
     flex-direction: column;
@@ -29,12 +28,30 @@ body {
 
 .content {
     width: 80%;
-    height: 100vh;
     background-color: #2e2e2e;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+header {
+    max-width: 1000px;
+    background-color: #14131a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+main {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 img {
@@ -44,9 +61,10 @@ img {
 
 footer {
     width: 100%;
-    background-color: #1e1e1e;
+    background-color: #14131a;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
