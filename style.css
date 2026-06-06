@@ -25,25 +25,25 @@ body {
 .Navbar {
     width: 20%;
     background-color: #1e1e1e;
-    padding: 20px 60px;
+    padding: 1.25rem 3.75rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .Navbar h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .Navbar ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .Navbar a {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .Navbar ul,
@@ -62,63 +62,63 @@ header {
 }
 
 .header-inner {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 2rem;
 }
 
 .header-text h1 {
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 800;
-    margin-bottom: 36px;
+    margin-bottom: 2.25rem;
 }
 
 .header-text .subtitle {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .header-inner img {
-    height: 200px;
-    margin-bottom: 20px;
+    height: 12.5rem;
+    margin-bottom: 1.25rem;
 }
 
 main {
-    font-size: 18px;
+    font-size: 1.25rem;
     line-height: 1.5;
 }
 
 main h1 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .about {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 50px;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .skills {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding: 0 3rem 3rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .projects {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding: 0 3rem 3rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
 }
 
 footer {
@@ -128,5 +128,5 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 2rem;
 }
