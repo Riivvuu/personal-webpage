@@ -31,14 +31,14 @@ body {
     background-color: #2e2e2e;
 }
 
-header,
-main {
-    width: 100%;
-    max-width: 1400px;
-}
-
 header {
     background-color: #14131a;
+    width: 100%;
+}
+
+.header-inner {
+    max-width: 1400;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
