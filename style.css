@@ -51,11 +51,12 @@ body {
 .Navbar a {
     font-size: 1.5rem;
     transition: color 0.2s ease;
-    padding-left: 0.5rem;
+    padding-left: 0;
     border-left: 3px solid transparent;
 }
 
 .Navbar a:hover {
+    padding-left: 0.5rem;
     border-left-color: #4a9eff;
 }
 
