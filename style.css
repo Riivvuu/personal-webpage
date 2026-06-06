@@ -62,13 +62,21 @@ header {
     width: 100%;
 }
 
-.header-inner {
+.header-inner,
+.about,
+.skills,
+.projects {
     max-width: 75rem;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.header-inner {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
 }
 
 .header-text h1 {
@@ -96,27 +104,25 @@ main h1 {
 }
 
 .about {
-    max-width: 75rem;
     margin: 0 auto;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
 .skills {
-    max-width: 75rem;
     margin: 0 auto;
-    padding: 0 3rem 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
 .projects {
-    max-width: 75rem;
     margin: 0 auto;
-    padding: 0 3rem 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
