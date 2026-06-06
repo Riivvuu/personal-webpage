@@ -38,6 +38,8 @@ body {
 .Navbar h1 {
     font-size: 3rem;
     font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .Navbar ul {
@@ -48,6 +50,13 @@ body {
 
 .Navbar a {
     font-size: 1.5rem;
+    transition: color 0.2s ease;
+}
+
+.Navbar a:hover {
+    color: #4a9eff;
+    padding-left: 0.5rem;
+    transition: all 0.2s ease;
 }
 
 .Navbar ul,
