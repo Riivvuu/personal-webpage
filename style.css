@@ -77,6 +77,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .header-text h1 {
@@ -91,7 +93,6 @@ header {
 
 .header-inner img {
     height: 12.5rem;
-    margin-bottom: 1.25rem;
 }
 
 main {
